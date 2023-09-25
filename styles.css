@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: lightgoldenrodyellow;
+}
+.header {
+  width: 65%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: ;
+  border-style: inherit;
+.header__headline {
+  margin: 0;
+  padding-inline-start: 0px;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  text-shadow: 3px 3px 0px #c394f2;
+  background-color: lightcyan;
+  border-radius: 10px;
+  border-inline-color: black;
+  width: 100%;
+}
