@@ -10,6 +10,8 @@ body {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   position: relative;
 }
+main {
+}
 .header {
   width: 30%;
   max-width: 600px;
@@ -40,10 +42,10 @@ body {
 .question-card__question {
   background-color: #c394f2;
   line-height: 1.8rem;
-  color: #fff;
-  padding: 20px;
-  border-radius: 30px;
-  width: 40%;
+  color: black;
+  padding: 12px;
+  border-radius: 15px;
+  width: 45%;
   position: absolute;
   top: 120px;
   left: 50%;
@@ -57,9 +59,38 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-  top: ;
+  top: 250px;
+  color: #fff;
 }
 .question-card__hashtags {
+  color: black;
   position: absolute;
-  top: 270px;
+  top: 300px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  gap: 100px;
+}
+.hashtags__1 {
+  position: absolute;
+  left: 110px;
+  padding: 10px;
+  border-radius: 30px;
+  background: #c394f2;
+}
+.hashtags__2 {
+  position: absolute;
+  left: 190px;
+  padding: 10px;
+  border-radius: 30px;
+  background: #c394f2;
+}
+.hashtags__3 {
+  position: absolute;
+  left: 260px;
+  padding: 10px;
+  border-radius: 30px;
+  background: #c394f2;
 }
