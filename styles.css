@@ -11,6 +11,7 @@ body {
   position: relative;
 }
 main {
+  border: 5px solid #252629;
 }
 .header {
   width: 30%;
